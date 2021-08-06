@@ -1,0 +1,14 @@
+.header__lang-link {
+  color: inherit;
+  font-size: 24px;
+  margin: 12px 0 0 0;
+  text-decoration: none;
+}
+
+.header__lang-link:first-child {
+  margin: 0 18px 0 0;
+}
+
+.header__lang-link:active {
+  text-decoration: underline;
+}
