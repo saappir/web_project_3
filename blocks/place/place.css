@@ -6,11 +6,11 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
   "title website"
-  "image paragraph"
-  "image paragraph"
-  "image paragraph";
+   "image paragraph"
+   "image paragraph"
+   "image paragraph";
 }
 
-.place:first-of-type {
+.place:first-of-type, .place:last-of-type {
   margin: 0;
 }

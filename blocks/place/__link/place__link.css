@@ -1,7 +1,6 @@
 .place__link {
   color: inherit;
-  max-width: 50%;
   padding: 0;
   margin: 0;
-  align-self: end;
+  text-decoration: underline;
 }

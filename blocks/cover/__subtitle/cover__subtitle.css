@@ -2,6 +2,10 @@
   font-size: 1.125rem;
   line-height: 122%;
   text-align: center;
-  width: 320px;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

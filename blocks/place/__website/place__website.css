@@ -1,3 +1,4 @@
 .place__website {
   grid-area: website;
+  margin: 10% 0 0 0;
 }
