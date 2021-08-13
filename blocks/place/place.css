@@ -2,8 +2,8 @@
   margin: 80px 0;
   padding: 0;
   display: grid;
-  grid-gap: 3rem 2.5rem;
-  grid-template-columns: repeat(2, 1fr);
+  gap: 48px 40px;
+  grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
   grid-template-areas:
   "title website"
    "image paragraph"
@@ -13,4 +13,25 @@
 
 .place:first-of-type, .place:last-of-type {
   margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin: 48px 0;
+  }
 }

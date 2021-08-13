@@ -3,4 +3,11 @@
   padding: 0;
   margin: 0;
   text-decoration: underline;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 425px) {
+  .place__link {
+    margin: 0 16px;
+  }
 }

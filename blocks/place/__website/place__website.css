@@ -1,4 +1,14 @@
 .place__website {
   grid-area: website;
-  margin: 10% 0 0 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .place__website {
+    margin-bottom: 30px;
+  }
 }

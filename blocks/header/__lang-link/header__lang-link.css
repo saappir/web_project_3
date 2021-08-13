@@ -1,15 +1,20 @@
 .header__lang-link {
-  color: inherit;
   font-size: 24px;
-  margin: 12px 0 0 auto;
+  padding: 0;
+  margin: auto 0 0 18px;
+  line-height: 118%;
   text-decoration: none;
-}
-
-.header__lang-link:last-of-type {
-  margin: 0.75rem 0 0 1.125rem;
-
+  color: #fffdfd;
+  justify-content: space-between;
 }
 
 .header__lang-link:active {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 425px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 111%;
+  }
 }
