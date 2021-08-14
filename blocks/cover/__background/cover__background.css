@@ -1,9 +1,0 @@
-.cover__background {
-  opacity: 0.8;
-  transition: 0.8s;
-  width: 100%;
-}
-
-.cover__background:hover {
-  opacity: 0.3;
-}
