@@ -8,10 +8,6 @@
   justify-content: space-between;
 }
 
-.header__lang-link_active {
-  text-decoration: underline;
-}
-
 @media screen and (max-width: 425px) {
   .header__lang-link {
     font-size: 18px;
