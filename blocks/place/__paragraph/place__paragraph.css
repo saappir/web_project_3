@@ -5,6 +5,7 @@
   line-height: 163%;
   font-weight: normal;
   overflow-wrap: break-word;
+  max-width: 484px;
 }
 
 .place__paragraph:last-of-type {
