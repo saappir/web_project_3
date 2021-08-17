@@ -1,21 +1,23 @@
 .photo-grid__item {
-  max-width: 284px;
+  width: 284px;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1184px) {
   .photo-grid__item {
-    max-width: 300px;
+    width: 300px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .photo-grid__item {
-    max-width: 352px;
+    width: 352px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .photo-grid__item {
-    max-width: 288px;
+    width: 288px;
   }
 }
